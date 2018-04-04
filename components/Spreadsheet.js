@@ -43,6 +43,9 @@ export default class Spreadsheet extends React.Component {
                 onFocus={this.handleFocus} />
 
         <div className='spreadsheet__focused'>
+          {
+            
+          }
         </div>
       </div>
     );
