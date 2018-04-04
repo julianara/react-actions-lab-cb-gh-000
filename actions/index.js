@@ -1,7 +1,6 @@
 'use strict';
 
 function addColumn (ev) {
-  ev.preventDefault();
   
 }
 
