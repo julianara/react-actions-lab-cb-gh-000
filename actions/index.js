@@ -1,7 +1,7 @@
 'use strict';
 
 function addColumn (ev) {
-    ev.preventDefault();
+  ev.preventDefault();
 
   const updatedTable = this.state.table
     .map(row => [...row, '']);
