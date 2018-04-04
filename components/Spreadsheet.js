@@ -17,9 +17,9 @@ export default class Spreadsheet extends React.Component {
     this.handleAddRow = actions.addRow(this);
     this.handleRemoveColumn = actions.removeColumn(this);
     this.handleRemoveRow = actions.removeRow(this);
-    this.handleChangeCell = actions.changeCell(this);
-    this.handleBlurCell = actions.blurCell(this);
-    this.handleFocusCell = actions.focusCell(this);
+    this.handleChange = actions.changeCell(this);
+    this.handleBlur = actions.blurCell(this);
+    this.handleFocus = actions.focusCell(this);
   }
 
   render () {
