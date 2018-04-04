@@ -14,7 +14,9 @@ function addColumn (ev) {
 function addRow (ev) {
   ev.preventDefault();
   
-  const updatedTable = this.state.table.map(col =>)
+  this.setState({
+    table: [...this.state.table, ]
+  })
 }
 
 function changeCell (rowIndex, columnIndex, ev) {
