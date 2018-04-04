@@ -20,6 +20,11 @@ function addRow (ev) {
 }
 
 function changeCell (rowIndex, columnIndex, ev) {
+  const updatedTable;
+  
+  this.setState({
+    table: updatedTable
+  });
 
 }
 
