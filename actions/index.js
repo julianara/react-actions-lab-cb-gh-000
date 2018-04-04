@@ -3,6 +3,7 @@
 function addColumn (ev) {
   ev.preventDefault();
   
+  const updatedTable =
 
 }
 
