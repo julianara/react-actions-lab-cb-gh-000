@@ -20,6 +20,7 @@ function addRow (ev) {
 }
 
 function changeCell (rowIndex, columnIndex, ev) {
+  const
 }
 
 function focusCell (rowIndex, columnIndex) {
