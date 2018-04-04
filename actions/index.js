@@ -3,7 +3,7 @@
 function addColumn (ev) {
   ev.preventDefault();
   
-  const updatedTable =
+  const updatedTable = this.state.table
 
 }
 
