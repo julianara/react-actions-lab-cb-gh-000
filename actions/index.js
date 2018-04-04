@@ -21,7 +21,7 @@ function addRow (ev) {
 
 function changeCell (rowIndex, columnIndex, ev) {
   const updatedRow = [...this.state.table[rowIndex]];
-  updatedRow[columnIndex] = 
+  updatedRow[columnIndex] = ev.target.value;
   const updatedTable;
   
   this.setState({
