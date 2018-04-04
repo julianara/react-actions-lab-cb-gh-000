@@ -5,6 +5,9 @@ function addColumn (ev) {
   
   const updatedTable = this.state.table.map(row => [...row, ' ']);
   
+  this.setState({
+    table: updatedTable;
+  });
 
 }
 
