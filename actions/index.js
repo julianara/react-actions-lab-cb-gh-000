@@ -25,7 +25,7 @@ function changeCell (rowIndex, columnIndex, ev) {
 
 function focusCell (rowIndex, columnIndex) {
   this.setState({
-    focused: rowIndex - columnIndex
+    focused: [rowIndex, columnIndex]
   })
 }
 
