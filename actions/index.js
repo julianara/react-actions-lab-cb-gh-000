@@ -3,7 +3,8 @@
 function addColumn (ev) {
   ev.preventDefault();
   
-  const updatedTable = this.state.table.map(row => [...row, ' '])
+  const updatedTable = this.state.table.map(row => [...row, ' ']);
+  
 
 }
 
