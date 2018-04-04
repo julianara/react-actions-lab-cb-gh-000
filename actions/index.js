@@ -6,12 +6,15 @@ function addColumn (ev) {
   const updatedTable = this.state.table.map(row => [...row, ' ']);
   
   this.setState({
-    table: updatedTable;
+    table: updatedTable
   });
 
 }
 
 function addRow (ev) {
+  ev.preventDefault();
+  
+  const updatedTable = this.state.table.map(col =>)
 }
 
 function changeCell (rowIndex, columnIndex, ev) {
