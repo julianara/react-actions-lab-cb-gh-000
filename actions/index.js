@@ -48,7 +48,7 @@ function removeRow (ev) {
 }
 
 function removeColumn (ev) {
-  ev.prevent
+  ev.preventDefault();
 }
 
 export default {
