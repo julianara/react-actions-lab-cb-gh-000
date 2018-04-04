@@ -44,9 +44,11 @@ function blurCell () {
 }
 
 function removeRow (ev) {
+  ev.preventDefault();
 }
 
 function removeColumn (ev) {
+  ev.prevent
 }
 
 export default {
