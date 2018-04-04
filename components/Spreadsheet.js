@@ -44,7 +44,7 @@ export default class Spreadsheet extends React.Component {
 
         <div className='spreadsheet__focused'>
           {
-            this.state.focused ? 
+            this.state.focused ? : null
           }
         </div>
       </div>
