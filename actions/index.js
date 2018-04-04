@@ -15,7 +15,7 @@ function addRow (ev) {
   ev.preventDefault();
   
   this.setState({
-    table: [...this.state.table, ]
+    table: [...this.state.table, this.state.table.map()]
   })
 }
 
