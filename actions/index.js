@@ -16,7 +16,7 @@ function addRow (ev) {
   
   this.setState({
     table: [...this.state.table, this.state.table[0].map(() => '')]
-  })
+  });
 }
 
 function changeCell (rowIndex, columnIndex, ev) {
