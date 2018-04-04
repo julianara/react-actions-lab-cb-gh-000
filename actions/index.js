@@ -61,9 +61,9 @@ function removeColumn (ev) {
     const updatedTable = this.state.table.map(row => row.slice(0, -1));
  
   
-  this.setState({
-    table: updatedTable
-  });
+    this.setState({
+      table: updatedTable
+    });
   } 
 }
 
