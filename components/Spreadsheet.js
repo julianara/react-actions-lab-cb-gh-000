@@ -18,6 +18,8 @@ export default class Spreadsheet extends React.Component {
     this.handleRemoveColumn = actions.removeColumn(this);
     this.handleRemoveRow = actions.removeRow(this);
     this.handleChangeCell = actions.changeCell(this);
+    this.handleBlurCell = actions.blurCell(this);
+    this.handleFocusCell = actions.focusCell(this);
   }
 
   render () {
@@ -37,7 +39,7 @@ export default class Spreadsheet extends React.Component {
 
         <Table table={this.state.table}
                 onBlur={this.handleBlur}
-                onChange={this.handleChangeCell}/>
+                onChange={this.handleChangeCell} />
 
         <div className='spreadsheet__focused'>
         </div>
