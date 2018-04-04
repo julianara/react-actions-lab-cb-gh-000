@@ -27,6 +27,9 @@ function focusCell (rowIndex, columnIndex) {
 }
 
 function blurCell () {
+  this.setState({
+    focused: 'false'
+  })
 }
 
 function removeRow (ev) {
