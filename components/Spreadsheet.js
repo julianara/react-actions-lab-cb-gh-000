@@ -13,13 +13,13 @@ export default class Spreadsheet extends React.Component {
         ['']
       ]
     };
-    this.handleAddColumn = actions.addColumn(this);
-    this.handleAddRow = actions.addRow(this);
-    this.handleRemoveColumn = actions.removeColumn(this);
-    this.handleRemoveRow = actions.removeRow(this);
-    this.handleChange = actions.changeCell(this);
-    this.handleBlur = actions.blurCell(this);
-    this.handleFocus = actions.focusCell(this);
+    this.handleAddColumn = actions.addColumn.bind(this);
+    this.handleAddRow = actions.addRow.bind(this);
+    this.handleRemoveColumn = actions.removeColumn.bind(this);
+    this.handleRemoveRow = actions.removeRow.bind(this);
+    this.handleChange = actions.changeCell.bind(this);
+    this.handleBlur = actions.blurCell.bind(this);
+    this.handleFocus = actions.focusCell.bind(this);
   }
 
   render () {
