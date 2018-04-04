@@ -3,12 +3,6 @@
 function addColumn (ev) {
   ev.preventDefault();
 
-  const updatedTable = this.state.table
-    .map(row => [...row, '']);
-
-  this.setState({
-    table: updatedTable
-  });
 }
 
 function addRow (ev) {
